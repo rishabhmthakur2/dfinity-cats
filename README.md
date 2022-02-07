@@ -11,13 +11,10 @@ The cat objects are stored in a MongoDB database hosted on the cloud using Mongo
 
 1. Clone repo
 2. run `npm install` 
+3. run `npm run dev` or `npm run start`
+4. You can now interact with the APIs on localhost:8000 using tools like POSTMAN
 
-## Usage 
-
-1. run `npm run dev` or `npm run start`
-2. You can now interact with the APIs on localhost:8000 using tools like POSTMAN
-
-## Endpoints
+## Endpoint Usage
 
 1. POST /cats
 
