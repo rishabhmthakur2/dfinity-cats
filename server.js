@@ -88,7 +88,7 @@ app.put("/cats/:id", (req, res) => {
       },
     },
     (err, result) => {
-      if (err) return res.send(err);
+      if (result.value == null) return res.send(err);
       res.status(200);
       res.json({
         status: 200,
