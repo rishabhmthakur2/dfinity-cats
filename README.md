@@ -5,7 +5,7 @@ The cat objects are stored in a MongoDB database hosted on the cloud using Mongo
 
 
 ## Live server
-- [Heroku Server Address] - 
+- [Heroku Server Address] - https://dfinity-cats.herokuapp.com/
 
 ## You can also use local installation in place of the HEROKU endpoint
 
