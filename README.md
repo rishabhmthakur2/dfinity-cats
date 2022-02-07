@@ -1,6 +1,10 @@
-# Repo for a CRUD server to Create, Read, Update and Delete cats as resources
-# Done as part of a take-home assignment for DFinity Foundation
+## About
+Repo for a CRUD server to Create, Read, Update and Delete cats as resources. Done as part of a take-home assignment for DFinity Foundation.
+Made using Node.js and Express.js. 
+The cat objects are stored in a MongoDB database hosted on the cloud using MongoDB Atlas.
 
+
+## Live server
 - [Heroku Server Address] - 
 
 ## You can also use local installation in place of the HEROKU endpoint
@@ -12,9 +16,6 @@
 
 1. run `npm run dev` or `npm run start`
 2. You can now interact with the APIs on localhost:8000 using tools like POSTMAN
-
-## Data storage
-The cat objects are stored in a MongoDB database hosted on the cloud using MongoDB Atlas.
 
 ## Endpoints
 
