@@ -175,3 +175,22 @@ app.get("/wallets", (req, res) => {
 //     }
 //   })
 // })
+
+app.delete('/wallet/:wallet', (req, res) => {
+  let walletAddress = req.params.wallet;
+  db.collection('cats').findOneAndDelete({walletAddress: walletAddress}, (err, result) => {
+    if (err || result.value == null) {
+      res.status(400)
+      res.json({
+        status: 400,
+        error: err ? err : 'Invalid ID' 
+      })
+    }
+    else{
+      res.status(200)
+      res.json({
+        status: 200
+      })
+    }
+  })
+})
